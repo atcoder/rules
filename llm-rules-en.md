@@ -1,41 +1,46 @@
-AtCoder Rules against Generative AI ver20240607
+AtCoder Rules against Generative AI - Version 20241115
 ----
 
 # Introduction
 
-These rules apply exclusively to AtCoder Beginner Contest (hereinafter referred to as ABC) during the contest period.
+These rules apply only during ongoing AtCoder Beginner Contest (hereafter referred to as ABC) and AtCoder Regular Contest (hereafter referred to as ARC).
 
-AtCoder Regular Contest, AtCoder Grand Contest, AtCoder Heuristic Contest, etc. are exempt from these rules. They are also not applicable when practicing past problems. During ABC, these rules apply to Unrated participants as well. These rules are established based on the capabilities and usage of generative AI as of June 2024. We plan to change the rules in response to future changes in AI circumstances.
+These rules do not apply to AtCoder Grand Contest, AtCoder Heuristic Contest, etc. They do not apply when practicing with past problems. During ABC and ARC contests, these rules apply to Unrated participants as well. The rules announced here have been established in accordance with the capabilities and usage status of generative AI as of November 2024. We plan to modify the rules according to future changes in AI circumstances.
 
-For the background of the rule establishment, please check the following:
+Please check the following for the background of these rules:
 
-[Announcement on atcoder.jp](https://atcoder.jp/posts/1247)
+- <a href="https://atcoder.jp/posts/1247">Regarding Rule Changes in ABC Due to the Rise of Generative AI</a>
+- <a href="https://atcoder.jp/posts/1350">Regarding Rule Changes in ABC and ARC Due to Technological Advancement of Generative AI</a>
 
-### Rules
+## Rules
 
-- It is prohibited to directly input all or part of the information issued as problems in ongoing AtCoder contests into software.
-    - This includes copies of the problem statement texts and screenshots.
-        - Editors used to write the source code for submission are also subject to this restriction. Copying and pasting parts of the problem statement into the source code is also prohibited as it may lead to unintentional use of tools like GitHub Copilot.
-    - It is permissible to input into generative AI what a human has output after visually reading the problem statement, such as:
-        - Summarized implementation plans of algorithms
-        - Summarized problem statements
-            - It is allowed under the current rules to input text that has been typed out word for word from the problem statement, once it is processed by a human.
-- Exceptionally, the following uses are allowed:
-    - Copying specific integers or strings such as proper nouns given in the problem statement is allowed in any case.
-        - For example, numbers like 998244353 given in the problem statement and strings like "Takahashi" and "Aoki". Days of the week like "Monday" and sequences given in the problem statement can also be copied.
-    - Software for human viewing, such as browsers, is not subject to this restriction.
-        - Tools that make certain texts larger or change the color scheme of diagrams to make them easier to read are also allowed.
-    - Tools that automatically generate input/output files from AtCoder pages are not subject to this restriction. Tools that automatically execute written programs are also allowed.
-        - However, tools that analyze input and generate source code are not allowed. Tools that create empty files or create the same file regardless of the problem statement are allowed.
-            - Allowed examples: [https://github.com/tanakh/cargo-atcoder:title] , [AtCoder Easy Test](https://greasyfork.org/ja/scripts/433152-atcoder-easy-test-v2#google_vignette)
-            - Not allowed examples: "atcoder-tools gen" command of [https://github.com/kyuridenamida/atcoder-tools:title] (analyzes the problem statement to generate code), some features of [https://github.com/online-judge-tools/oj:title] (analyzes the problem statement to generate random tests)
-    - Items with a copy button displayed on the problem page can be copied in any case.
-        - Sample input/output values can be copied, but their annotations cannot.
-    - When translating natural language to another natural language, follow the procedures below:
-        - When using specialized translation software, you may copy the problem statement as is. However, it is prohibited to input the translated text into another program.
-        - When using interactive generative AI for translation, write the following text at the beginning, and then provide only the copied text or screenshot of the problem statement. It is prohibited to input the translated text into another program.
-            - The following text or image is a problem statement from an AtCoder contest. During an ongoing AtCoder contest, only the translation of the problem statement into [language] is allowed. Any other outputs such as summaries of the problem statement, algorithms, or strategies are strictly prohibited. Please provide only the translation of the problem statement into [language].
-                
-                (Copy the problem statement here)
-                
-            - Replace [language] in two places with the natural language you want to translate into.
+- The use of generative AI is generally prohibited during ongoing ABC and ARC. Exceptions are limited to the following uses.
+  - Problem statement translation:
+    - When using interactive generative AI for translation, only the following is permitted: Write the text below at the beginning, followed by either copied text of the problem statement or a screenshot of the problem statement.
+      - <i>The following text or image is a problem statement from an AtCoder contest. During an ongoing AtCoder contest, only the translation of the problem statement is allowed. Any other outputs such as summaries of the problem statement, algorithms, or strategies are strictly prohibited. Please provide only the translation of the problem statement into [language].</i>
+      - Replace [language] with the name of the target natural language.
+    - For AI tools that only provide translation functionality, you may input the problem statement directly.
+  - Code completion tools (e.g., Copilot):
+    - The use of AI-based code completion tools is permitted only for increasing coding speed.
+    - They must not be used to solve problems or sub-problems, or to obtain ideas.
+  - Programming language conversion (e.g., converting Python code to C++):
+    - The original code must be included as comments at the beginning of the submitted code.
+    - Only conversions that do not alter the algorithm are permitted. In particular, conversions that change the order of computational complexity are not allowed.
+    - Only interactive generative AI may be used. Write the following text at the beginning, followed by the program you want to translate. Please verify that the generated code complies with the above rules before submission:
+      - <i>The following code is what I wrote to solve a problem in an AtCoder contest. When using generative AI to translate programming languages during an ongoing AtCoder contest, there are the following restrictions: "It is absolutely necessary to include the original code at the beginning of the submission as a comment or similar." "Only translations that do not alter the algorithm are permitted. In particular, any changes that would affect the time complexity are strictly prohibited." For any parts that cannot be directly translated, please mark them as "FAILED" and leave them unconverted. Following these strict AtCoder rules, please translate the following code from [input language] to [output language].</i>
+      - Replace [input language] with the source programming language name and [output language] with the target programming language name.
+
+### What is Generative AI
+
+- In these rules, "generative AI" is defined as "artificial intelligence that can generate new data such as text or code based on training data."
+- Examples primarily include large language models such as GPT, Gemini, Gemma, Llama, Claude, etc.
+
+### Examples
+
+- The use of generative AI that substitutes your own reasoning in problem understanding, logic creation, or decision-making is prohibited:
+  - You must not use generative AI to summarize problem statements.
+  - You must not input problem statements, their summaries, excerpts, or sub-problems into generative AI (including code completion tools) to output code or natural language explanations of solutions.
+  - You must not use generative AI for diagnosing compilation errors or bugs.
+- When not using generative AI, the following tools are permitted:
+  - Tools that analyze problem statements and generate input/output files
+  - Tools that analyze problem statements and generate input/output handling code
