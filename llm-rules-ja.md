@@ -1,20 +1,21 @@
-AtCoder生成AI対策ルール - 20241115版
+AtCoder生成AI対策ルール - 20241206版
 ----
 
 # はじめに
 
-このルールは、AtCoder Beginner Contest（以下、ABCとする）および AtCoder Regular Contest （以下、ARCとする）のコンテスト中にのみ適用されるルールです。
+このルールは、AtCoder Beginner Contest（以下、ABCとする）および AtCoder Regular Contest (Div. 2) （以下、ARC Div. 2とする）のコンテスト中にのみ適用されるルールです。
 
-AtCoder Grand Contest, AtCoder Heuristic Contestなどは、このルールの対象外です。過去問を練習している際には適用されません。ABCおよびARCのコンテスト中においては、Unrated参加者にも適用されます。今回発表するルールは、2024年11月現在の生成AIの能力と利用状況に合わせて制定されたものです。今後のAI事情の変化に応じて、ルールを変更する予定です。
+AtCoder Grand Contest, AtCoder Regular Contest (Div. 1), AtCoder Heuristic Contestなどは、このルールの対象外です。過去問を練習している際には適用されません。ABCおよびARC Div. 2のコンテスト中においては、Unrated参加者にも適用されます。今回発表するルールは、2024年12月現在の生成AIの能力と利用状況に合わせて制定されたものです。今後のAI事情の変化に応じて、ルールを変更する予定です。
 
 ルールの制定背景などは、以下をご確認ください。
 
 - [生成AIの台頭に伴うABCにおけるルール変更について](https://atcoder.jp/posts/1246)
 - [生成AIの技術向上に伴うABCおよびARCにおけるルール変更について](https://atcoder.jp/posts/1347)
+- [ARCのDivision制に伴うルール変更について](https://atcoder.jp/posts/1368)
 
 ## ルール
 
-- 開催中のABCおよびARCにおいて、生成AIの使用を原則禁止とします。例外は以下に挙げる用途に限られます。
+- 開催中のABCおよびARC Div. 2において、生成AIの使用を原則禁止とします。例外は以下に挙げる用途に限られます。
   - 問題文の翻訳：
     - 対話型の生成AIを利用して翻訳する場合については、以下の文章を先頭に書き、その後、問題文をコピーしたテキストまたは問題文のスクリーンショットのみを与えることのみを許容します。
       - The following text or image is a problem statement from an AtCoder contest. During an ongoing AtCoder contest, only the translation of the problem statement is allowed. Any other outputs such as summaries of the problem statement, algorithms, or strategies are strictly prohibited. Please provide only the translation of the problem statement into [language].
@@ -41,6 +42,12 @@ AtCoder Grand Contest, AtCoder Heuristic Contestなどは、このルールの�
   - 問題文を生成AIに要約させてはいけません。
   - 問題文、その要約、抜粋、または部分問題を生成AI（コード補完ツールも含む）に入力して、コードまたは解法の自然言語での説明を出力させてはいけません。
   - コンパイルエラーやバグの診断に生成AIを使用してはいけません。
-- 生成AIを使用していない場合は、以下のようなツールの使用は許容されます。
+- 生成AIを使用していない場合はこのルールの対象外です。例えば以下のようなツールの使用は許容されます。
   - 問題文を解析し、入出力データのファイルを生成するツール
   - 問題文を解析し、入出力を行うコードを生成するツール
+- コンテスト開始前にあらかじめ生成AIを用いて作成しておいたコード等の使用は許容されます。
+- 以下のツールは明示的に許容します。
+  - WolframAlpha, Mathematica
+  - OEIS (The On-Line Encyclopedia of Integer Sequences)
+  - Google検索
+    - Google検索を行った際、Search LabsのAIによる概要が表示されることがありますが、閲覧して構いません。
