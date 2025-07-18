@@ -3,19 +3,20 @@ AtCoder Rules against Generative AI - Version 20241206
 
 # Introduction
 
-These rules apply only during ongoing AtCoder Beginner Contest (hereafter referred to as ABC) and AtCoder Regular Contest Div. 2 (hereafter referred to as ARC Div. 2).
+These rules apply only during ongoing AtCoder Beginner Contest (hereafter referred to as ABC) and AtCoder Regular Contest (hereafter referred to as ARC), regardless of division.
 
-These rules do not apply to AtCoder Grand Contest, AtCoder Heuristic Contest, etc. They do not apply when practicing with past problems. During ABC and ARC Div. 2 contests, these rules apply to Unrated participants as well. The rules announced here have been established in accordance with the capabilities and usage status of generative AI as of December 2024. We plan to modify the rules according to future changes in AI circumstances.
+These rules do not apply to AtCoder Grand Contest, AtCoder Heuristic Contest, etc. They do not apply when practicing with past problems. During ABC and ARC contests, these rules apply to Unrated participants as well. The rules announced here have been established in accordance with the capabilities and usage status of generative AI as of July 2025. We plan to modify the rules according to future changes in AI circumstances.
 
 Please check the following for the background of these rules:
 
 - <a href="https://atcoder.jp/posts/1247">Regarding Rule Changes in ABC Due to the Rise of Generative AI</a>
 - <a href="https://atcoder.jp/posts/1350">Regarding Rule Changes in ABC and ARC Due to Technological Advancement of Generative AI</a>
 - <a href="https://atcoder.jp/posts/1369">Rule Changes Regarding ARC's Division System</a>
+- <a href="https://atcoder.jp/posts/1514">Generative AI Rule Changes Regarding ARC Div. 1</a>
 
 ## Rules
 
-- The use of generative AI is generally prohibited during ongoing ABC and ARC Div. 2. Exceptions are limited to the following uses.
+- The use of generative AI is generally prohibited during ongoing ABC and ARC. Exceptions are limited to the following uses.
   - Problem statement translation:
     - When using interactive generative AI for translation, only the following is permitted: Write the text below at the beginning, followed by either copied text of the problem statement or a screenshot of the problem statement.
       - <i>The following text or image is a problem statement from an AtCoder contest. During an ongoing AtCoder contest, only the translation of the problem statement is allowed. Any other outputs such as summaries of the problem statement, algorithms, or strategies are strictly prohibited. Please provide only the translation of the problem statement into [language].</i>
