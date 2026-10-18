@@ -53,6 +53,9 @@ These conditions apply both to code you created using generative AI and to code 
   - Non-AI-based tools that analyze problem statements and write sample input/output data to files
   - Non-AI-based tools that analyze problem statements and generate input/output handling code
 - Using code that was created using generative AI before the contest begins is permitted, provided that the above conditions regarding prior publication and inclusion of a URL to the source are met. If these conditions are met, you do not need to check whether generative AI was used to create the code or explicitly disclose its use.
+  - There are no specific requirements regarding where you publish the code, but third parties must be able to view its contents and a timestamp showing that it was publicly available before the contest began.
+  - For example, if you have made a library publicly available in a GitHub repository before the contest begins, including a link to that repository in the source code you submit is sufficient. In this case, you do not need to provide a separate link for each piece of copied code.
+  - When copying a submission made before the contest begins, including the URL of that submission satisfies the requirement to include a URL to the source.
 - The following tools are explicitly permitted:
   - WolframAlpha, Mathematica
   - OEIS (The On-Line Encyclopedia of Integer Sequences)
@@ -75,10 +78,14 @@ In connection with the treatment of code created using generative AI, the polici
 - Each user is responsible for checking the license when copying source code.
   - For example, when copying another user's past submission, check whether that user has specified a license for the code, granted permission to use it in some form, or imposed any restrictions.
   - License violations may result in a ban.
+  - License violations have already been treated as misconduct, and this policy has now been explicitly stated as part of this rule revision. The criteria for imposing bans remain unchanged.
 
 ### Code Obfuscation
 
 - Code obfuscation is prohibited. Obfuscation is considered a rule violation even for code you wrote yourself, not just when copying code written by others.
+- Whether code is considered obfuscated is determined by whether it has been deliberately modified for the purpose of making human review difficult.
+- Variable names or formatting that are difficult to understand do not, on their own, constitute a rule violation.
+- Compressing the template portion of your code to reduce the length of the submitted source code is also permitted.
 
 ### Submissions Outside Contest Hours
 
