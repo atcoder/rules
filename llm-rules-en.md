@@ -86,7 +86,7 @@ In connection with the treatment of code created using generative AI, the polici
 - Whether code is considered obfuscated is determined by whether it has been deliberately modified for the purpose of making human review difficult.
 - Variable names or formatting that are difficult to understand do not, on their own, constitute a rule violation.
 - Compressing the template portion of your code to reduce the length of the submitted source code is also permitted.
-- **If you convert code to binary form and embed it, you must ensure that the original source code can be inspected.**
+- （Applied from 2026/10/20）**If you convert code to binary form and embed it, you must ensure that the original source code can be inspected.**
 Under the criteria above, converting code to binary form does not necessarily constitute obfuscation. However, because it is very difficult to determine whether code in binary form constitutes obfuscation, the original source code must be available for inspection regardless of the purpose of the conversion.
 In the source code you submit, include the original source code, unchanged, as a comment, or include its URL if it has been made publicly available in advance.
 
